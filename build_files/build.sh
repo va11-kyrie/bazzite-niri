@@ -26,6 +26,7 @@ dnf5 -y install \
   waybar \
   swaylock \
   polkit-kde \
+  swaybg \
   xwayland-satellite
 
 # Use a COPR Example:
