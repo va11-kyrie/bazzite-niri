@@ -10,7 +10,7 @@ set -ouex pipefail
 # https://mirrors.rpmfusion.org/mirrorlist?path=free/fedora/updates/39/x86_64/repoview/index.html&protocol=https&redirect=1
 
 # remove kde
-dnf5 -y remove plasma-workspace plasma-* kde-*
+dnf5 -y remove plasma-workspace plasma-* kde-* kcm-fcitx5
 
 # setup niri
 dnf5 -y install \
@@ -27,6 +27,7 @@ dnf5 -y install \
   swaylock \
   polkit-kde \
   swaybg \
+  fcitx5-configtool fcitx5-m17n \
   xwayland-satellite
 
 # Use a COPR Example:
