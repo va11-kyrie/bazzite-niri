@@ -27,7 +27,7 @@ dnf5 -y install \
   swaylock \
   polkit-kde \
   swaybg \
-  fcitx5-configtool fcitx5-m17n \
+  fcitx5-configtool fcitx5-rime \
   xwayland-satellite
 
 # Use a COPR Example:
